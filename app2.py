@@ -12,7 +12,7 @@ from tensorflow.keras.preprocessing.text import Tokenizer,tokenizer_from_json
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.callbacks import EarlyStopping
 from keras import regularizers
-
+nltk.download('stopwords')
 vocab_size = 10000
 embedding_dim = 16
 lstm_units = 64 # number of units in the LSTM layer
