@@ -12,7 +12,6 @@ from tensorflow.keras.preprocessing.text import Tokenizer,tokenizer_from_json
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.callbacks import EarlyStopping
 from keras import regularizers
-from sklearn.metrics import accuracy_score
 
 vocab_size = 10000
 embedding_dim = 16
